@@ -1,0 +1,200 @@
+/* *** PRESET *** */
+body {line-height:1;background:#fff;color:#333;font-size:12px;font-family:Arial, Verdana, sans-serif;}
+.wrapper {width:960px;margin:0 auto;display:block;position:relative;}
+.right {float:right;}
+.left {float:left;}
+.clear {clear:both;}
+.tright {text-align:right;}
+.tcenter {text-align:center;}
+a {color:#6395ee; text-decoration:none;}
+a:hover {color:#000;}
+mark {font-weight:bold;color:#0063d1;}
+hr {margin:10px 0;background:#ccc;height:1px;display:block;border:none;box-shadow:0 1px 0 #fff;}
+h2 {font-size:32px;font-weight:bold;padding-bottom:20px;text-shadow:1px 1px 0 #fff;color:#333;}
+p {padding-bottom:5px;line-height:16px;font-size:12px;}
+::-webkit-input-placeholder {font-style:italic;}
+:-moz-placeholder {font-style:italic;}
+::-moz-placeholder {font-style:italic;}
+:-ms-input-placeholder {font-style:italic;}
+.clearfix:before,.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+.clearfix:before, .clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.ie7 .clearfix {zoom: 1;}
+
+
+#film .product,
+#new_products .product,
+#products_from_category .product {
+    float:left;
+    width:170px;
+    margin:0 10px 20px 10px;
+    border:1px solid #ddd;
+    text-align:center;
+    font-size:12px;
+    line-height:1.3em;
+    color:#555;
+}
+
+.buy_button {height:20px; padding:5px 15px;background:#5c92fa;color:white;text-decoration:none; margin:0 10px;}
+.buy_button:hover{background:#ccc;}
+
+.normal_button {height:20px;width:50px;display:inline-block;padding:10px;background-color:#5c92fa;color:white;text-decoration:none;}
+.normal_button:hover{background-color::#ccc;}
+
+#forgot_password_form input[type='text'] {width:300px;}
+.errorBox, .infoBox {;margin:30px 20% 0 20%;padding:15px;font-weight:bold;text-align:center;}
+.infoBox {color:#0063d1;}
+.errorBox {color:red;}
+.errorBox img, .infoBox img {vertical-align:middle;position:relative;top:-2px;}
+
+#content {float:left;margin-left:30px;width:730px;padding:30px 0;position:relative;}
+#content2 {float:left;margin:0 30px;width:500px;padding:30px 0;position:relative;}
+
+/* *** SIDES *** */
+aside {width:200px;padding:30px 0;position:relative;}
+aside input[type='text'], aside input[type='password'], aside textarea {width:188px;margin-bottom:8px;}
+.widget {padding-bottom: 30px;}
+.widget .head {background: url('hr.gif') repeat-x bottom;margin-bottom:8px;}
+.widget h5 {font-family:"Source Sans Pro";font-size:15px;font-weight:bold;text-transform:uppercase;color:#333;padding-bottom:8px;text-shadow:1px 1px 0 #fff;}
+.widget h6 {font-family:"Source Sans Pro";font-size:14px;font-weight:bold;padding-bottom:5px}
+
+.button.small, button.small {padding:6px 20px;}
+
+/* *** LOGIN / REGISTER / ACCOUNT *** */
+#new_account_form input[type='text'], #new_account_form input[type='password'] {width:235px;margin-bottom: 8px;}
+#new_account_reasons {float:left;width:200px;margin-right:20px;}
+#new_account_fields {float:left;width:280px;}
+#forgot_pass {display:inline-block;vertical-align:middle;padding:5px;margin-left:5px;font-size:11px;}
+#forgot_password_form input[type='text'] {width:300px;}
+.errorBox, .infoBox {;margin:30px 20% 0 20%;padding:15px;font-weight:bold;text-align:center;}
+.infoBox {color:#0063d1;}
+.errorBox {color:red;}
+.errorBox img, .infoBox img {vertical-align:middle;position:relative;top:-2px;}
+#user_account_menu {padding-top:50px;}
+#user_account_menu ul li {margin-bottom:3px;padding:11px;font-weight:bold;display:block;z-index:45;position:relative;width:210px;border-right:none !important;}
+#user_account_menu ul li.active {padding:10px;background-color:#fff;border:1px solid #ccc;}
+#user_account_menu ul li:hover {padding:10px 9px 10px 10px;cursor:pointer;background-color:rgba(255,255,255,0.8);border:1px solid #e4e4e4;box-shadow:inset -2px 0 2px rgba(0,0,0,0.07);}
+#user_account_menu ul li.active:hover {cursor:default;background-color:#fff;border:1px solid #ccc;box-shadow:none;padding:10px;}
+#account_data .tab {display:none;min-height:200px;padding:15px;position:relative;z-index:40;}
+#account_data .tab.active {display:block;}
+#account_data dl {display:block;padding:5px 0;}
+#account_data dt {width:125px;display:inline-block;}
+#account_data dd {width:335px;display:inline-block;}
+#account_data .input3 {width:300px}
+#account_data .input2 {width:170px}
+#ordersList li {padding:10px 0 0 0;}
+    .order_head {border-bottom:1px dashed #0063d1;padding-bottom:4px;}
+    .order_body {border-left:1px dashed #0063d1;margin:5px 0 5px 20px;}
+    .order_status {float:right;color:#0063d1;font-weight:bold;}
+    .order_date {color:#999;font-style:italic;}
+    .order_product {padding:3px 0 3px 10px;}
+    .op_price {float:right;color:#0063d1;font-size:11px;}
+
+/* ORDER PAGE */
+#order_form .inputBox {padding:15px;}
+#order_form dl {display:block;padding:5px 0;}
+#order_form dt {width:125px;display:inline-block;vertical-align:top;padding-top:9px;}
+#order_form dd {width:335px;display:inline-block;}
+#order_form .input3 {width:300px}
+#order_form .input2 {width:170px}
+#order_form dd div {padding-bottom:10px;}
+#order_form dd div.last {padding-bottom:0px;}
+#order_form dd div span {display:block;padding-left:15px;}
+#order_form .error {padding-top:3px;color:red;}
+#order_succeeded {margin:30px 170px;padding:30px 30px 30px 180px;background:#fff url('success.png') no-repeat 30px 50%;text-align:center;}
+#order_succeeded h3 {font-family:"Source Sans Pro";font-size:26px;padding-bottom:10px;}
+#order_succeeded_links {text-align:center;padding-bottom:30px;}
+
+/* COMPONENT --- ORDER SUMMARY */
+#order_summary_list {background: url('hr.gif') repeat-x bottom;margin-bottom:5px;padding-bottom:2px;}
+#order_summary_list li {font-size:11px;padding-bottom:7px;}
+#os_totals td, #os_totals th {font-weight:bold;text-align:left;}
+#os_totals td+td, #os_totals th+th {color:#0063d1;text-align:right;}
+#os_totals tbody td {padding:7px 0;}
+#os_totals tfoot td {border-top:1px dashed #0063d1;padding-top:7px;vertical-align:middle;}
+#os_totals tfoot td+td {font-size:18px;}
+#os_notes {text-align:right;font-size:11px;color:#bbb;text-shadow:1px 1px 0 #fff;font-style:italic;}
+
+.ratings {
+            border:     1px solid #CCC;
+            overflow:   visible;
+            padding:    10px;
+            position:   relative;
+            width:      180px;
+            height:     100px;
+        }
+.ratings_stars {
+            background: url('star_blank.png') no-repeat;
+            float:      left;
+            height:     28px;
+            padding:    2px;
+            width:      32px;
+        }
+.ratings_vote {
+            background: url('star_voted.png') no-repeat;
+        }
+.ratings_over {
+            background: url('star_overs.png') no-repeat;
+        }
+
+.total_votes {
+    background: #eaeaea;
+    padding: 5px;
+    clear:both;
+    margin-top:20px;
+}
+.product1{
+    font: 10px verdana, sans-serif;
+    margin: 0 auto 40px auto;
+    width: 180px;
+    height:200px;
+}
+
+
+/**
+* General syles
+*/
+body{background:url('images/background.jpg')}
+.wrapper{background:#fff;}
+form{margin:10px 0;}
+.primary{float:left; width:310px;}
+.secondary{float:right; width:630px;}
+
+/**
+* Header styles
+*/
+#menu{padding:20px;}
+#moviesearch{height:26px; padding:0 3px;}
+input[type=submit]{margin-top:5px;}
+
+/**
+* Body styles
+*/
+.wrapper{padding:15px;}
+
+/**
+* Product tiles
+*/
+.product img{width:170px; margin:15px 0; height:251px;}
+.product {padding-bottom:10px; min-height:520px;}
+.product-top{height:56px;}
+.product-top h3{height:28px;}
+.actors .product, .directors .product, .topten .product{min-height:360px !important;}
+
+/**
+* Movie Page
+*/
+.actor-section{margin: 10px 20px; float:left;}
+.pdp form{clear:both;}
+.pdp-cta{margin-left:0;}
+.actors-pdp-wrapper .actor-section:first-child{margin-left:0;}
+
+
+/**
+* Admin section
+*/
+#menu > a{height:15px; margin-bottom:10px; display:inline-block;}
+.change-pass dt, .personal-data dt{float:left; margin:0 5px 0 0;}
+.change-pass dd, .personal-data dd{margin-left:0; clear:left;}
