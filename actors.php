@@ -9,7 +9,7 @@ $page = !empty($_GET['page']) ? (int)$_GET['page'] : 1;
 // 2. records per page ($per_page)
 $per_page = 5;
 // 3. total record count ($total_count)
-$total_count = $core->db->query("SELECT * FROM actor")->num_rows;
+$total_count = $core->db->query("SELECT * FROM actor")->num_rows; // ceva
 
 $pagination = new Pagination($page, $per_page, $total_count);
 $core->data['pagination'] = @$pagination;
